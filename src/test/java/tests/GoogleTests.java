@@ -43,7 +43,7 @@ class GoogleTests {
             $(byName("q")).val("lepra").pressEnter();
         });
         step("Находим результат", () -> {
-            $("html").shouldHave(text("Лепрозорий: вход"));});
+            $("html").shouldHave(text("Wat is Lepra"));});
 
     }
 
@@ -59,7 +59,7 @@ class GoogleTests {
             $(byName("q")).val("lepra").pressEnter();
         });
         step("Находим результат", () ->{
-            $("html").shouldHave(text("Липрозорий: вход"));});
+            $("html").shouldHave(text("What a fuck is Lepra"));});
 
     }
 }
